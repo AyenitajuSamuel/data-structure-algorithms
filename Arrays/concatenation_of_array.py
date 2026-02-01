@@ -6,17 +6,17 @@ Problem Description:
 
     Return the array ans.
 
+Constraints:
+    n == nums.length
+    1 <= n <= 1000
+    1 <= nums[i] <= 1000
+
 Approach: 
     To solve this problem, we can simply concatenate the input array with itself. This can be done using list concatenation in Python.
 
     Steps:
     1. Take the input array `nums`.
     2. Create a new array `ans` by concatenating `nums` with itself.
-
-Constraints:
-    n == nums.length
-    1 <= n <= 1000
-    1 <= nums[i] <= 1000
 """
 
 class Solution:
